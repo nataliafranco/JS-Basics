@@ -96,15 +96,17 @@ function myName () {
 
   //Code Here
 function outerFn () {
-  return function (name) {
-    return name;
+  return function () {
+    return "natalia";
   }
 }
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
+
 var innerFn = outerFn ();
 
 //Now invoke innerFn.
+
 innerFn ("natalia");
